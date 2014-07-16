@@ -1,4 +1,4 @@
 websocket-message-proxy
 =======================
 
-Websocket server to proxy messages (one-to-many and one-to-one).
+Websocket server to proxy one-to-many messages.

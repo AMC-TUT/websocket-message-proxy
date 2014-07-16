@@ -1,0 +1,25 @@
+{
+  "name": "websocket-message-proxy",
+  "version": "0.0.1",
+  "description": "websocket-message-proxy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AMC-TUT/websocket-message-proxy.git"
+  },
+  "keywords": [
+    "socket.io, msg proxy"
+  ],
+  "author": "Teemu Jönkkäri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AMC-TUT/websocket-message-proxy/issues"
+  },
+  "homepage": "https://github.com/AMC-TUT/websocket-message-proxy",
+  "dependencies": {
+    "socket.io": "~1.0.6"
+  }
+}
