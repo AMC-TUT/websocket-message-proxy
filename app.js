@@ -10,7 +10,7 @@ io.on('connection', function(socket) {
     socket.broadcast.emit('disconnected', socket.id);
   });
 
-  /* message event is all-around message with an object that can include what ever relevant. clients must know how to handle these messages. */
+  /* message event is all-around message with an object that can include whatever relevant. clients must know how to handle these messages. */
   socket.on('msg', function(data) {
     // send (broadcast) message to all other clients
     socket.broadcast.emit('msg', socket.id, data);
